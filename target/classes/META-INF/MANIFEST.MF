@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: 030mp
+Build-Jdk: 11.0.4
+Implementation-Title: helloSpringBoot
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: kr.ac.hansung.cse
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: https://spring.io/projects/spring-boot/helloSpringBo
+ ot
+Created-By: Maven Integration for Eclipse
+
