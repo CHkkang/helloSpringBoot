@@ -18,7 +18,6 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@NoArgsConstructor
 @Table(name = "productTable")
 public class Product implements Serializable{
 

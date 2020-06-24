@@ -1928,3 +1928,72 @@ Identify and stop the process that's listening on port 9090 or configure this ap
 2020-06-22 19:08:53,516 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-06-22 19:08:53,517 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
 2020-06-22 19:08:53,535 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 17 ms
+2020-06-22 19:16:57,984 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-R06QJB3 with PID 16192 (C:\dev\helloSpringBoot\target\classes started by 030mp in C:\dev\helloSpringBoot)
+2020-06-22 19:16:57,990 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-22 19:16:57,992 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-22 19:17:00,264 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-22 19:17:00,388 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 105ms. Found 1 JPA repository interfaces.
+2020-06-22 19:17:03,493 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9090 (http)
+2020-06-22 19:17:03,522 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9090"]
+2020-06-22 19:17:03,524 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-22 19:17:03,525 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-22 19:17:03,529 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-06-22 19:17:03,531 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-22 19:17:03,532 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-22 19:17:03,558 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-06-22 19:17:04,028 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-22 19:17:04,029 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 5919 ms
+2020-06-22 19:17:04,955 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 19:17:05,101 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-22 19:17:05,191 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-22 19:17:05,597 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-22 19:17:06,188 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-22 19:17:06,592 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-22 19:17:07,717 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-22 19:17:07,802 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-22 19:17:09,501 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-22 19:17:09,541 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-22 19:17:10,330 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-22 19:17:10,863 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-22 19:17:10,943 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9090"]
+2020-06-22 19:17:11,041 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-22 19:17:11,044 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-22 19:17:11,392 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-22 19:17:11,437 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 14.269 seconds (JVM running for 16.09)
+2020-06-22 19:17:26,425 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-22 19:17:26,427 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-22 19:17:26,451 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 23 ms
+2020-06-25 00:20:47,381 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-R06QJB3 with PID 21864 (C:\dev\helloSpringBoot\target\classes started by 030mp in C:\dev\helloSpringBoot)
+2020-06-25 00:20:47,384 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-25 00:20:49,039 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-25 00:20:49,129 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 77ms. Found 1 JPA repository interfaces.
+2020-06-25 00:20:50,854 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9090 (http)
+2020-06-25 00:20:50,867 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9090"]
+2020-06-25 00:20:50,868 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-25 00:20:50,868 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-25 00:20:50,870 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-06-25 00:20:50,870 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-25 00:20:50,870 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-25 00:20:50,884 INFO [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-06-25 00:20:51,059 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-25 00:20:51,060 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3612 ms
+2020-06-25 00:20:51,483 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-25 00:20:51,550 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-25 00:20:51,604 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-25 00:20:51,664 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-25 00:20:51,999 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-25 00:20:52,211 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-25 00:20:52,818 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-25 00:20:52,852 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-25 00:20:53,993 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-25 00:20:54,005 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-25 00:20:54,469 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-25 00:20:55,232 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-25 00:20:55,294 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9090"]
+2020-06-25 00:20:55,952 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-25 00:20:55,954 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-25 00:20:56,146 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-25 00:20:56,161 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 9.292 seconds (JVM running for 10.129)
+2020-06-25 00:21:15,538 INFO [http-nio-9090-exec-7] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-25 00:21:15,538 INFO [http-nio-9090-exec-7] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-25 00:21:15,548 INFO [http-nio-9090-exec-7] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
